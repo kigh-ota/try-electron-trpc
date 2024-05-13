@@ -20,7 +20,7 @@ const TS_MODULE = {
 const config: webpack.Configuration[] = [
   {
     target: 'electron-main',
-    entry: './main.ts',
+    entry: './src/main.ts',
     output: {
       path: path.join(__dirname, 'generated'),
       filename: 'main.js',
@@ -37,7 +37,7 @@ const config: webpack.Configuration[] = [
   },
   {
     target: 'web', // nodeIntegration: false ならば electron-renderer は使ってはいけない
-    entry: './renderer.ts',
+    entry: './src/renderer.ts',
     output: {
       path: path.join(__dirname, 'generated'),
       filename: 'renderer.js',

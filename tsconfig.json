@@ -16,4 +16,5 @@
     "incremental": false,
     "allowJs": true // webpack.common.ts に babel.config.js を読み込むためだけに追加
   },
+  "include": ["./src/**/*", "./preload.js", "./*.ts", "babel.config.js"],
 }
