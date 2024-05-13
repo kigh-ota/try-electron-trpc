@@ -1,4 +1,4 @@
-const { contextBridge } = require('electron')
+const { contextBridge, ipcRenderer } = require('electron')
 
 window.addEventListener('DOMContentLoaded', () => {
   const replaceText = (selector, text) => {

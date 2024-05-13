@@ -27,6 +27,7 @@
   "dependencies": {
     "electron-trpc": "^0.6.1",
     "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "zod": "^3.23.8"
   }
 }
